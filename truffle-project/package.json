@@ -1,0 +1,17 @@
+{
+  "name": "Truffle-Project",
+  "version": "1.0.0",
+  "author": "Ronny Demera",
+  "license": "MIT",
+  "scripts": {
+    "truffle:init": "truffle init",
+    "truffle:compile": "truffle compile",
+    "truffle:migrate": "truffle migrate --reset",
+    "truffle:test": "truffle test",
+    "ganache": "ganache-cli -p 8545 -i 5777"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.1.66"
+  }
+}
