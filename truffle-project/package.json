@@ -11,6 +11,7 @@
     "ganache": "ganache-cli -p 8545 -i 5777"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
     "ganache-cli": "^6.12.2",
     "truffle": "^5.1.66"
   }
