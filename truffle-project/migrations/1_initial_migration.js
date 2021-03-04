@@ -1,5 +1,5 @@
-const HouseItem = artifacts.require("HouseItem");
+const PaintingItem = artifacts.require("PaintingItem");
 
 module.exports = function (deployer) {
-  deployer.deploy(HouseItem);
+  deployer.deploy(PaintingItem);
 };
