@@ -28,4 +28,8 @@ contract PaintingItem is ERC721 {
         return newPaintingId;
     }
 
+    function getPainting(uint256 _id) public view returns (string memory, string memory) {
+        return (_paintings[_id].author, _paintings[_id].name);
+    }
+
 }
